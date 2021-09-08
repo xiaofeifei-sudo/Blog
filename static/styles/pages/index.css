@@ -1,0 +1,32 @@
+.comm-main{
+    
+}
+
+.list-title {
+  font-size: 1.3rem;
+  padding: 0 0.5rem;
+}
+.list-context {
+  color: rgb(131, 131, 131);
+  padding: 0.5rem;
+}
+.list-icon {
+  padding: 0.5rem 0;
+  color: rgb(131, 131, 131);
+}
+.list-icon span {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+
+
+.list-context img {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #f0f0f0;
+  max-width: 1000px !important;
+  display: block;
+  margin: 8px auto;
+  transition: all .5s ease-in-out .5s;
+}

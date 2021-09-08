@@ -1,0 +1,171 @@
+body {
+  background-color: #f6f6f6;
+}
+.comm-main {
+  margin-top: 4.2rem;
+}
+.comm-left {
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 0.3rem;
+  border-radius: 1.3rem;
+  border: 1px solid #eee;
+}
+.comm-box,
+.comm-right {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+  border-radius: 1.3rem;
+  border: 1px solid #eee;
+}
+
+.list-title {
+  font-size: 1.3rem;
+  color: #1e90ff;
+  padding: 0 0.5rem;
+}
+.list-context {
+  color: #777;
+  padding: 0.5rem;
+}
+.list-icon {
+  padding: 0.5rem 0;
+  color: #aaa;
+}
+.list-icon span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+/* 渲染md样式 */
+pre {
+  display: block;
+  background-color: #000000 !important;
+  padding: 0.5rem !important;
+  overflow-y: auto;
+  font-weight: 400;
+  font-family: STKaiti;
+  border-radius: 1rem;
+}
+
+pre > code {
+  border: 0px !important;
+  background-color: #000000 !important;
+  color: rgb(12, 252, 4);
+  font-size: 1rem;
+}
+
+code {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: 1px solid #fdb9cc;
+  border-radius: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #4f4f4f;
+  margin: 0px 3px;
+}
+
+.ant-back-top-inner {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 5rem;
+}
+
+.cssnicehover {
+  transition: all linear 0.5s;
+}
+
+.cssnicehover:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -5px, 0);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ant-back-top-inner:hover {
+  /* 置顶特效 */
+  animation: btn-pudding 2s linear;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: none;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  border-bottom: none;
+}
+
+/* 调整返回顶部按钮的位置 */
+/* .ant-back-top{
+    left: 100px;
+} */
+
+/* 置顶动画 */
+@keyframes btn-pudding {
+  12%,
+  15% {
+    transform: scale(0.93, 1.07);
+  }
+
+  16%,
+  17% {
+    transform: scale(0.94, 1.06);
+  }
+  10%,
+  18% {
+    transform: scale(0.95, 1.05);
+  }
+  19% {
+    transform: scale(0.96, 1.04);
+  }
+  20% {
+    transform: scale(0.98, 1.02);
+  }
+  21%,
+  40%,
+  48% {
+    transform: scale(0.99, 1.01);
+  }
+  22%,
+  23%,
+  37%,
+  39%,
+  49% {
+    transform: scale(1, 1);
+  }
+  7%,
+  24%,
+  34%,
+  36% {
+    transform: scale(1.01, 0.99);
+  }
+  25%,
+  27%,
+  30%,
+  33% {
+    transform: scale(1.02, 0.98);
+  }
+  28%,
+  29% {
+    transform: scale(1.03, 0.97);
+  }
+  2% {
+    transform: scale(1.16, 0.84);
+  }
+  0% {
+    transform: scale(1.2, 0.8);
+  }
+}

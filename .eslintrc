@@ -1,0 +1,8 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    "no-undef": "off",
+    "no-restricted-globals": "off",
+    "no-unused-vars": "off"
+  }
+}
